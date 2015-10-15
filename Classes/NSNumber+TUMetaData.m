@@ -17,7 +17,7 @@
 
 - (BOOL)isSigned
 {
-    char *unsignedTypes[] = {
+    static const char *unsignedTypes[] = {
         @encode(unsigned char),
         @encode(unsigned short),
         @encode(unsigned int),
